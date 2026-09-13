@@ -1,0 +1,47 @@
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.secret-key
+
+# Runtime and personal data
+/data/
+/work/
+/runtime/
+/backups/
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Frontend
+node_modules/
+dist/
+build/
+coverage/
+playwright-report/
+test-results/
+
+# Local tool sessions and OS files
+.codex/
+.claude/settings.local.json
+.DS_Store
+Thumbs.db
+*.log
